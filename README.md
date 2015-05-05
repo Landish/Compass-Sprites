@@ -70,7 +70,7 @@ In your `/sass/screen.scss` file after importing `compass` import `sprites` mixi
 
 Place some icons/images into your `/images/icon/` directory and run the `compass compile` or `compass watch` command.
 
-You can also compile Compass with [Gulp](http://gulpjs.com/), [Grunt](http://gruntjs.com/) or any other 3rd-party applications, such as [Prepros](https://prepros.io/) or [Koala](http://koala-app.com/). 
+*You can also compile Compass with [Gulp](http://gulpjs.com/), [Grunt](http://gruntjs.com/) or any other 3rd-party applications, such as [Prepros](https://prepros.io/) or [Koala](http://koala-app.com/).* 
 
 After compiling Compass into CSS, you can use the following syntax of code for displayng icons in your HTML:
 
@@ -86,6 +86,6 @@ Example:
 
 # License
 
-The Compass Sprite Mixin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The Compass Sprites Mixin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 
