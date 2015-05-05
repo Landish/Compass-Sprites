@@ -1,0 +1,25 @@
+{
+  "name": "compass-sprites",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Landish/compass-sprites",
+  "authors": [
+    "Lado Lomidze <lado.lomidze@gmail.com>"
+  ],
+  "description": "Compass Better Sprites",
+  "main": "_sprites.scss",
+  "keywords": [
+    "compass",
+    "sass",
+    "sprite",
+    "image",
+    "icon"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
