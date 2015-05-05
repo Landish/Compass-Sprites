@@ -66,7 +66,7 @@ In your `/sass/screen.scss` file after importing `compass` import `sprites` mixi
 @import "icons";
 ```
 
-#### Note: If you don't import `sprites`, compass will use default spriting mixin for generating sprites.
+**Note: If you don't import `sprites`, compass will use default spriting mixin for generating sprites.**
 
 Place some icons/images into your `/images/icon/` directory and run the `compass compile` or `compass watch` command.
 
@@ -84,5 +84,8 @@ Example:
 <i class="icon-info"></i>
 ```
 
+# License
+
+The Compass Sprite Mixin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 
