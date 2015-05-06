@@ -22,7 +22,7 @@
       <h1>
 <a id="compass-sprites" class="anchor" href="#compass-sprites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compass Sprites</h1>
 
-<p>In order to use this mixin, I consume that you are already familiar with <a href="http://compass-style.org/">Compass</a> and it's <a href="http://compass-style.org/help/tutorials/spriting/">Spriting</a> feature.</p>
+<p>In order to use this mixin, I assume that you are already familiar with <a href="http://compass-style.org/">Compass</a> and it's <a href="http://compass-style.org/help/tutorials/spriting/">Spriting</a> feature.</p>
 
 <p>What this mixin does, is that, it uses CSS Contains Selector, which is <a href="http://caniuse.com/#feat=css-sel3">supported by every major browser</a>, including IE7 and above, rather than adding each class name to CSS, which represents the sprite file name.</p>
 
@@ -40,7 +40,7 @@
   <span class="pl-c1"><span class="pl-c1">background-repeat</span></span>: <span class="pl-c1">no-repeat</span>;
 }</pre></div>
 
-<p><em>When using few icons, it's not a big issue to use default spriting mixin from Compass, but if you have a lot of icons, debugging of HTML/CSS can be one hell of a process.</em></p>
+<p><em>When using few icons, it's not a big issue to use default spriting functionality from Compass, but if you have a lot of icons, debugging of HTML/CSS can be one hell of a process.</em></p>
 
 <h1>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h1>
@@ -81,9 +81,9 @@
 <span class="pl-c">// @import "path/to/bower_components/compass-sprites/sprites";</span>
 <span class="pl-k">@import</span> "<span class="pl-v">icons</span>";</pre></div>
 
-<p><strong>Note: If you don't import <code>sprites</code>, compass will use default spriting mixin for generating sprites.</strong></p>
+<p><strong>Note: If you don't import <code>sprites</code>, compass will use default spriting for generating sprites.</strong></p>
 
-<p>Place some icons/images into your <code>/images/icon/</code> directory and run the <code>compass compile</code> or <code>compass watch</code> command.</p>
+<p>Put some icons/images into your <code>/images/icon/</code> directory and run the <code>compass compile</code> or <code>compass watch</code> command.</p>
 
 <p><em>You can also compile Compass with <a href="http://gulpjs.com/">Gulp</a>, <a href="http://gruntjs.com/">Grunt</a> or any other 3rd-party applications, such as <a href="https://prepros.io/">Prepros</a> or <a href="http://koala-app.com/">Koala</a>.</em> </p>
 
