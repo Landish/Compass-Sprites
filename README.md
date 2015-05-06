@@ -1,6 +1,6 @@
 # Compass Sprites
 
-In order to use this mixin, I consume that you are already familiar with [Compass](http://compass-style.org/) and it's [Spriting](http://compass-style.org/help/tutorials/spriting/) feature.
+In order to use this mixin, I assume that you are already familiar with [Compass](http://compass-style.org/) and it's [Spriting](http://compass-style.org/help/tutorials/spriting/) feature.
 
 What this mixin does, is that, it uses CSS Contains Selector, which is [supported by every major browser](http://caniuse.com/#feat=css-sel3), including IE7 and above, rather than adding each class name to CSS, which represents the sprite file name.
 
@@ -21,7 +21,7 @@ Becomes to this:
 }
 ```
 
-*When using few icons, it's not a big issue to use default spriting mixin from Compass, but if you have a lot of icons, debugging of HTML/CSS can be one hell of a process.*
+*When using few icons, it's not a big issue to use default spriting functionality from Compass, but if you have a lot of icons, debugging of HTML/CSS can be one hell of a process.*
 
 
 # Installation
@@ -66,9 +66,9 @@ In your `/sass/screen.scss` file after importing `compass` import `sprites` mixi
 @import "icons";
 ```
 
-**Note: If you don't import `sprites`, compass will use default spriting mixin for generating sprites.**
+**Note: If you don't import `sprites`, compass will use default spriting for generating sprites.**
 
-Place some icons/images into your `/images/icon/` directory and run the `compass compile` or `compass watch` command.
+Put some icons/images into your `/images/icon/` directory and run the `compass compile` or `compass watch` command.
 
 *You can also compile Compass with [Gulp](http://gulpjs.com/), [Grunt](http://gruntjs.com/) or any other 3rd-party applications, such as [Prepros](https://prepros.io/) or [Koala](http://koala-app.com/).* 
 
